@@ -1,0 +1,54 @@
+On Thu, Jun 25, 2009 at 07:41:42AM -0700, Sunita Narang wrote:
+> 
+> > > -----Motivation to get us involved
+> > I can work on this.
+> 
+> Personalise this as much as you can.
+> 
+> > 
+> > > -----Trying to develop a series of guidelines for
+> > others interested in learning about the process.
+> > I'm confused about this.. we haven't started with this.
+> > should we say we will start making these guidelines later?
+> 
+> This is the most important topic and if you need we can call Dr. Sanjay to college so we can sit with him and work on it.
+
+Yes, i think that will be good, because he is one of the early team
+members.  Moreover, he was the first person to be involved in the
+project.
+
+> 
+> > 
+> > > -----Learning many new things, about
+> > I can work on this also.
+> 
+> Do involve Ankit and Animesh into writing this.
+> 
+
+I haven't been able to contact Animesh recently.  I will speak to
+Ankit.
+
+> > 
+> > > -----Ultimate goals
+> > I have no idea what to put in this.
+> > 
+> 
+> The goal is to provide the gentry in the college with cluster having processing power more than what is available with one computer. As a science college we have people who desire to write their own algorithms to solve specific problems they are working on, they sometimes find that just having one computer for crunching numbers will tie up their single computer for hours, days, or weeks before it converges on a solution! Using multi-threading the work can be done many times faster. We can call it true parallel processing.
+> 
+
+Oh, OK.  I think the cluster in the cluster room will not be that
+powerful, but the wfc can become a cluster for such purposes
+temporarily, using liveCDs.  The cluster room cluster can be used for
+practising/testing parallel programs, of course.
+
+> Hope I have given you some idea about writing this topic.
+
+Yes, I think we can add these topics.
+
+> 
+> 
+> Sudhang do put in some realistic data about the computations you are able to perform till now (if there are any).
+
+You mean, like, statistics about performance? I guess we can make a few graphs.
+
+~ Sudhang

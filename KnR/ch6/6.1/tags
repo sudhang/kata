@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+XMAX	graphics.c	8;"	d	language:C	file:
+YMAX	graphics.c	9;"	d	language:C	file:
+addpoint	graphics.c	/^struct point addpoint(struct point p1, struct point p2)$/;"	f	language:C	signature:(struct point p1, struct point p2)
+area	graphics.c	/^double area(struct rect r)      \/* this function accepts a struct *\/$/;"	f	language:C	signature:(struct rect r)
+canonrect	graphics.c	/^struct rect canonrect(struct rect r)$/;"	f	language:C	signature:(struct rect r)
+main	graphics.c	/^main()$/;"	f	language:C
+makepoint	graphics.c	/^struct point makepoint(int x, int y)      \/* this function returns a struct *\/$/;"	f	language:C	signature:(int x, int y)
+max	graphics.c	7;"	d	language:C	file:
+min	graphics.c	6;"	d	language:C	file:
+point	graphics.c	/^struct point {$/;"	s	language:C	file:
+pt1	graphics.c	/^  struct point pt1;$/;"	m	language:C	struct:rect	typeref:struct:rect::point	file:
+pt2	graphics.c	/^  struct point pt2;$/;"	m	language:C	struct:rect	typeref:struct:rect::point	file:
+ptinrect	graphics.c	/^int ptinrect(struct point p, struct rect r)$/;"	f	language:C	signature:(struct point p, struct rect r)
+rect	graphics.c	/^struct rect {$/;"	s	language:C	file:
+x	graphics.c	/^  int x;$/;"	m	language:C	struct:point	file:
+y	graphics.c	/^  int y;$/;"	m	language:C	struct:point	file:

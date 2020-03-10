@@ -1,0 +1,11 @@
+/* these keywords should be ignored: volatile register */
+char dummy[] = "these keywords should be ignored: volatile register";
+char _register, _volatile;
+#define register should be ignored
+
+int main(int argc, char **argv)
+{
+ while (1)  {
+   printf("hello world \n");
+ }
+}

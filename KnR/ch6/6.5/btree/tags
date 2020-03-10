@@ -1,0 +1,43 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BUFSIZE	getunget.c	3;"	d	language:C	file:
+MAXWORD	btree.h	13;"	d	language:C++
+addtree	addtree.c	/^struct tnode *addtree(struct tnode *p, char *w)$/;"	f	language:C	signature:(struct tnode *p, char *w)
+addtree	btree.h	/^struct tnode *addtree(struct tnode *, char *);$/;"	p	language:C++	signature:(struct tnode *, char *)
+buf	getunget.c	/^char buf[BUFSIZE]; \/* buffer for ungetch *\/$/;"	v	language:C
+bufp	getunget.c	/^int bufp = 0; \/* next free position in buf *\/$/;"	v	language:C
+c	getword.c	/^  int c;$/;"	l	language:C
+cond	addtree.c	/^  int cond;$/;"	l	language:C
+count	btree.h	/^  int count;$/;"	m	language:C++	struct:tnode	access:public
+getch	btree.h	/^int getch(void);$/;"	p	language:C++	signature:(void)
+getch	getunget.c	/^int getch(void) \/* get a (possibly pushed back) character *\/$/;"	f	language:C	signature:(void)
+getword	btree.h	/^int getword(char *, int);$/;"	p	language:C++	signature:(char *, int)
+getword	getword.c	/^int getword(char *word, int lim)$/;"	f	language:C	signature:(char *word, int lim)
+left	btree.h	/^  struct tnode *left;$/;"	m	language:C++	struct:tnode	typeref:struct:tnode::tnode	access:public
+main	main.c	/^main()$/;"	f	language:C
+main	strcmp.c	/^main()$/;"	f	language:C
+p	strdup.c	/^  char *p;$/;"	l	language:C
+right	btree.h	/^  struct tnode *right;$/;"	m	language:C++	struct:tnode	typeref:struct:tnode::tnode	access:public
+root	main.c	/^  struct tnode *root;$/;"	l	language:C
+s	strcmp.c	/^ char *s = "cont";$/;"	l	language:C
+strdup	btree.h	/^char *strdup(char *);$/;"	p	language:C++	signature:(char *)
+strdup	strdup.c	/^char *strdup(char *s)$/;"	f	language:C	signature:(char *s)
+t	strcmp.c	/^ char *t = "contest";$/;"	l	language:C
+talloc	btree.h	/^struct tnode *talloc(void);$/;"	p	language:C++	signature:(void)
+talloc	talloc.c	/^struct tnode *talloc(void)$/;"	f	language:C	signature:(void)
+tnode	btree.h	/^struct tnode  {$/;"	s	language:C++
+tnode::count	btree.h	/^  int count;$/;"	m	language:C++	struct:tnode	access:public
+tnode::left	btree.h	/^  struct tnode *left;$/;"	m	language:C++	struct:tnode	typeref:struct:tnode::tnode	access:public
+tnode::right	btree.h	/^  struct tnode *right;$/;"	m	language:C++	struct:tnode	typeref:struct:tnode::tnode	access:public
+tnode::word	btree.h	/^  char *word;$/;"	m	language:C++	struct:tnode	access:public
+treeprint	btree.h	/^void treeprint(struct tnode *);$/;"	p	language:C++	signature:(struct tnode *)
+treeprint	treeprint.c	/^void treeprint(struct tnode *p)$/;"	f	language:C	signature:(struct tnode *p)
+ungetch	btree.h	/^void ungetch(int c);$/;"	p	language:C++	signature:(int c)
+ungetch	getunget.c	/^void ungetch(int c) \/* push character back on input *\/$/;"	f	language:C	signature:(int c)
+w	getword.c	/^  char *w = word;$/;"	l	language:C
+word	btree.h	/^  char *word;$/;"	m	language:C++	struct:tnode	access:public
+word	main.c	/^  char word[MAXWORD];$/;"	l	language:C

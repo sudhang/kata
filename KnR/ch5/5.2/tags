@@ -1,0 +1,78 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BUFSIZE	ex5-1.c	4;"	d	language:C	file:
+BUFSIZE	ex5-2.c	6;"	d	language:C	file:
+BUFSIZE	getint.c	4;"	d	language:C	file:
+BUFSIZE	krx502.c	48;"	d	language:C	file:
+LEFT	ex5-2.c	8;"	d	language:C	file:
+RIGHT	ex5-2.c	9;"	d	language:C	file:
+SIZE	ex5-1.c	5;"	d	language:C	file:
+SIZE	ex5-2.c	7;"	d	language:C	file:
+SIZE	getint.c	5;"	d	language:C	file:
+array	ex5-1.c	/^  int n, i, res, array[SIZE];$/;"	l	language:C
+array	ex5-2.c	/^  float array[SIZE];$/;"	l	language:C
+array	getint.c	/^  int n, i, array[SIZE];$/;"	l	language:C
+buf	ex5-1.c	/^char buf[BUFSIZE];$/;"	v	language:C
+buf	ex5-2.c	/^char buf[BUFSIZE];$/;"	v	language:C
+buf	getint.c	/^char buf[BUFSIZE];$/;"	v	language:C
+buf	krx502.c	/^char buf[BUFSIZE];      \/* buffer for ungetch *\/$/;"	v	language:C
+bufp	ex5-1.c	/^int bufp = 0;$/;"	v	language:C
+bufp	ex5-2.c	/^int bufp = 0;$/;"	v	language:C
+bufp	getint.c	/^int bufp = 0;$/;"	v	language:C
+bufp	krx502.c	/^int bufp = 0;           \/* next free position in buf *\/$/;"	v	language:C
+c	ex5-1.c	/^  int c, sign;$/;"	l	language:C
+c	ex5-2.c	/^  int c, sign, place = LEFT;$/;"	l	language:C
+c	getint.c	/^  int c, sign;$/;"	l	language:C
+c	krx502.c	/^        int c, sign;$/;"	l	language:C
+ch	krx502.c	/^        int ch;$/;"	l	language:C
+digits	krx502.c	/^        int digits;$/;"	l	language:C
+f	krx502.c	/^                float f;$/;"	l	language:C
+fraction	krx502.c	/^        int fraction;$/;"	l	language:C
+getch	ex5-1.c	/^int getch(void) \/* get a (possibly pushed back) character *\/$/;"	f	language:C	signature:(void)
+getch	ex5-1.c	/^int getch(void);$/;"	p	language:C	file:	signature:(void)
+getch	ex5-2.c	/^int getch(void) \/* get a (possibly pushed back) character *\/$/;"	f	language:C	signature:(void)
+getch	ex5-2.c	/^int getch(void);$/;"	p	language:C	file:	signature:(void)
+getch	getint.c	/^int getch(void) \/* get a (possibly pushed back) character *\/$/;"	f	language:C	signature:(void)
+getch	getint.c	/^int getch(void);$/;"	p	language:C	file:	signature:(void)
+getch	krx502.c	/^int getch(void)         \/* get a (possibly pushed-back) character *\/$/;"	f	language:C	signature:(void)
+getch	krx502.c	/^int getch(void);$/;"	p	language:C	file:	signature:(void)
+getfloat	ex5-2.c	/^float getfloat(float *pn)$/;"	f	language:C	signature:(float *pn)
+getfloat	krx502.c	/^int getfloat(float *fp)$/;"	f	language:C	signature:(float *fp)
+getint	ex5-1.c	/^int getint(int *pn)$/;"	f	language:C	signature:(int *pn)
+getint	getint.c	/^int getint(int *pn)$/;"	f	language:C	signature:(int *pn)
+getint	krx502.c	/^int getint(int *pn)$/;"	f	language:C	signature:(int *pn)
+getline	ex5-1.c	/^int getline(char s[], int lim);$/;"	p	language:C	file:	signature:(char s[], int lim)
+getline	ex5-2.c	/^int getline(char s[], int lim);$/;"	p	language:C	file:	signature:(char s[], int lim)
+getline	getint.c	/^int getline(char s[], int lim);$/;"	p	language:C	file:	signature:(char s[], int lim)
+i	ex5-1.c	/^  int n, i, res, array[SIZE];$/;"	l	language:C
+i	ex5-2.c	/^  float i;$/;"	l	language:C
+i	ex5-2.c	/^  int n, i, res;$/;"	l	language:C
+i	getint.c	/^  int n, i, array[SIZE];$/;"	l	language:C
+main	ex5-1.c	/^main()$/;"	f	language:C
+main	ex5-2.c	/^main()$/;"	f	language:C
+main	getint.c	/^main()$/;"	f	language:C
+main	krx502.c	/^int main(void)$/;"	f	language:C	signature:(void)
+n	ex5-1.c	/^  int n, i, res, array[SIZE];$/;"	l	language:C
+n	ex5-2.c	/^  int n, i, res;$/;"	l	language:C
+n	getint.c	/^  int n, i, array[SIZE];$/;"	l	language:C
+place	ex5-2.c	/^  int c, sign, place = LEFT;$/;"	l	language:C
+res	ex5-1.c	/^  int n, i, res, array[SIZE];$/;"	l	language:C
+res	ex5-2.c	/^  int n, i, res;$/;"	l	language:C
+ret	krx502.c	/^        int ret;$/;"	l	language:C
+sign	ex5-1.c	/^  int c, sign;$/;"	l	language:C
+sign	ex5-2.c	/^  int c, sign, place = LEFT;$/;"	l	language:C
+sign	getint.c	/^  int c, sign;$/;"	l	language:C
+sign	krx502.c	/^        int c, sign;$/;"	l	language:C
+sign	krx502.c	/^        int sign;$/;"	l	language:C
+ungetch	ex5-1.c	/^void ungetch(int c) \/* push character back on input *\/$/;"	f	language:C	signature:(int c)
+ungetch	ex5-1.c	/^void ungetch(int);$/;"	p	language:C	file:	signature:(int)
+ungetch	ex5-2.c	/^void ungetch(int c) \/* push character back on input *\/$/;"	f	language:C	signature:(int c)
+ungetch	ex5-2.c	/^void ungetch(int);$/;"	p	language:C	file:	signature:(int)
+ungetch	getint.c	/^void ungetch(int c) \/* push character back on input *\/$/;"	f	language:C	signature:(int c)
+ungetch	getint.c	/^void ungetch(int);$/;"	p	language:C	file:	signature:(int)
+ungetch	krx502.c	/^void ungetch(int c)     \/* push character back on input *\/$/;"	f	language:C	signature:(int c)
+ungetch	krx502.c	/^void ungetch(int);$/;"	p	language:C	file:	signature:(int)

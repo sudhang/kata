@@ -1,0 +1,36 @@
+[Breakpoint 0]
+Enabled=true
+File=/home/sudhang/Study/KnR/ch6/6.5/ex6-4/main.c
+Line=14
+Temporary=false
+
+[Breakpoint 1]
+Enabled=true
+File=/home/sudhang/Study/KnR/ch6/6.5/ex6-4/getcounts.c
+Line=9
+Temporary=false
+
+[Breakpoint 2]
+Enabled=true
+File=/home/sudhang/Study/KnR/ch6/6.5/ex6-4/getcounts.c
+Line=11
+Temporary=false
+
+[Breakpoint 3]
+Enabled=true
+File=/home/sudhang/Study/KnR/ch6/6.5/ex6-4/getcounts.c
+Line=3
+Temporary=false
+
+[General]
+DebuggerCmdStr=
+DriverName=GDB
+FileVersion=1
+OptionsSelected=
+ProgramArgs=
+TTYLevel=7
+WorkingDirectory=
+
+[Memory]
+ColumnWidths=80,0
+NumExprs=0

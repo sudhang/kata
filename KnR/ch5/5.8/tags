@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+ALLOCSIZE	yearAndDay1.c	39;"	d	language:C	file:
+afree	yearAndDay1.c	/^void afree(int *p)   \/* free storage pointed to by p *\/$/;"	f	language:C	signature:(int *p)
+alloc	yearAndDay1.c	/^int *alloc(int n)    \/* return pointer to n characters *\/$/;"	f	language:C	signature:(int n)
+allocbuf	yearAndDay1.c	/^static int allocbuf[ALLOCSIZE];    \/* storage for alloc *\/$/;"	v	language:C	file:
+allocp	yearAndDay1.c	/^static int *allocp = allocbuf;     \/* next free position *\/$/;"	v	language:C	file:
+day_of_year	yearAndDay1.c	/^int day_of_year(int year, int month, int day)$/;"	f	language:C	signature:(int year, int month, int day)
+days	yearAndDay1.c	/^  int days, month, year, *pmonth = alloc(sizeof(int)), *pday = alloc(sizeof(int));$/;"	l	language:C
+daytab	yearAndDay1.c	/^static char daytab[2][13] = {$/;"	v	language:C	file:
+i	yearAndDay1.c	/^  int i, leap;$/;"	l	language:C
+leap	yearAndDay1.c	/^  int i, leap;$/;"	l	language:C
+main	month_name.c	/^main()$/;"	f	language:C
+main	yearAndDay1.c	/^main()$/;"	f	language:C
+month	yearAndDay1.c	/^  int days, month, year, *pmonth = alloc(sizeof(int)), *pday = alloc(sizeof(int));$/;"	l	language:C
+month_day	yearAndDay1.c	/^void month_day(int year, int yearday, int *pmonth, int *pday)$/;"	f	language:C	signature:(int year, int yearday, int *pmonth, int *pday)
+month_name	month_name.c	/^char *month_name(int n)$/;"	f	language:C	signature:(int n)
+name	month_name.c	/^  static char *name[] = {$/;"	l	language:C	file:
+num	month_name.c	/^  int num;$/;"	l	language:C
+pday	yearAndDay1.c	/^  int days, month, year, *pmonth = alloc(sizeof(int)), *pday = alloc(sizeof(int));$/;"	l	language:C
+pmonth	yearAndDay1.c	/^  int days, month, year, *pmonth = alloc(sizeof(int)), *pday = alloc(sizeof(int));$/;"	l	language:C
+year	yearAndDay1.c	/^  int days, month, year, *pmonth = alloc(sizeof(int)), *pday = alloc(sizeof(int));$/;"	l	language:C

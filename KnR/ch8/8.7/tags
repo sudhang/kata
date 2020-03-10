@@ -1,0 +1,65 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ARRAYSIZE	ex8-8.c	99;"	d	language:C	file:
+ARRAYSIZE	temp.c	144;"	d	language:C	file:
+Align	syscalls2.h	/^typedef long Align;         \/* for alignment to a long boundary *\/$/;"	t	language:C++
+Align	temp.c	/^typedef long  Align;$/;"	t	language:C	file:
+BUFSIZE	syscalls2.h	6;"	d	language:C++
+Header	syscalls2.h	/^typedef union header Header;$/;"	t	language:C++	typeref:union:header
+Header	temp.c	/^typedef union header  Header;$/;"	t	language:C	typeref:union:header	file:
+Malloc	ex8-6.c	/^void *Malloc(unsigned nbytes)$/;"	f	language:C	signature:(unsigned nbytes)
+Malloc	ex8-7.c	/^void *Malloc(unsigned nbytes)$/;"	f	language:C	signature:(unsigned nbytes)
+Malloc	ex8-8.c	/^void *Malloc(unsigned nbytes)$/;"	f	language:C	signature:(unsigned nbytes)
+Malloc	malloc.c	/^void *Malloc(unsigned nbytes)$/;"	f
+NALLOC	ex8-6.c	40;"	d	language:C	file:
+NALLOC	ex8-7.c	41;"	d	language:C	file:
+NALLOC	ex8-8.c	38;"	d	language:C	file:
+NALLOC	malloc.c	40;"	d	file:
+NALLOC	temp.c	3;"	d	language:C	file:
+OPEN_MAX	syscalls2.h	7;"	d	language:C++
+array	ex8-8.c	/^char	array[ARRAYSIZE];$/;"	v	language:C
+array	temp.c	/^char  array[ARRAYSIZE];$/;"	v	language:C
+base	ex8-6.c	/^static Header base;       \/* empty list to get started *\/$/;"	v	language:C	file:
+base	ex8-7.c	/^static Header base;       \/* empty list to get started *\/$/;"	v	language:C	file:
+base	ex8-8.c	/^static Header base;       \/* empty list to get started *\/$/;"	v	language:C	file:
+base	malloc.c	/^static Header base;       \/* empty list to get started *\/$/;"	v	file:
+base	temp.c	/^static Header base;$/;"	v	language:C	file:
+bfree	ex8-8.c	/^void bfree(char *p, int n)$/;"	f	language:C	signature:(char *p, int n)
+bfree	temp.c	/^void bfree (void *p, unsigned n)$/;"	f	language:C	signature:(void *p, unsigned n)
+error	syscalls2.h	/^void error(char *fmt, ...)$/;"	f	language:C++	signature:(char *fmt, ...)
+free	ex8-6.c	/^void free(void *ap)$/;"	f	language:C	signature:(void *ap)
+free	ex8-7.c	/^void free(void *ap)$/;"	f	language:C	signature:(void *ap)
+free	ex8-8.c	/^void free(void *ap)$/;"	f	language:C	signature:(void *ap)
+free	malloc.c	/^void free(void *ap)$/;"	f
+free	temp.c	/^void free (void *ap)$/;"	f	language:C	signature:(void *ap)
+freep	ex8-6.c	/^static Header *freep = NULL;  \/* start of free list *\/$/;"	v	language:C	file:
+freep	ex8-7.c	/^static Header *freep = NULL;  \/* start of free list *\/$/;"	v	language:C	file:
+freep	ex8-8.c	/^static Header *freep = NULL;  \/* start of free list *\/$/;"	v	language:C	file:
+freep	malloc.c	/^static Header *freep = NULL;  \/* start of free list *\/$/;"	v	file:
+freep	temp.c	/^static Header *freep = NULL;$/;"	v	language:C	file:
+header	syscalls2.h	/^union header  {             \/* block header *\/$/;"	u	language:C++
+header	temp.c	/^union header {$/;"	u	language:C	file:
+main	ex8-6.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	ex8-7.c	/^main()$/;"	f	language:C
+main	ex8-8.c	/^int main ()$/;"	f	language:C
+main	malloc.c	/^main()$/;"	f
+main	temp.c	/^int main ()$/;"	f	language:C
+malloc	temp.c	/^void *malloc (unsigned nbytes)$/;"	f	language:C	signature:(unsigned nbytes)
+morecore	ex8-6.c	/^static Header *morecore(unsigned nu)$/;"	f	language:C	file:	signature:(unsigned nu)
+morecore	ex8-7.c	/^static Header *morecore(unsigned nu)$/;"	f	language:C	file:	signature:(unsigned nu)
+morecore	ex8-8.c	/^static Header *morecore(unsigned nu)$/;"	f	language:C	file:	signature:(unsigned nu)
+morecore	malloc.c	/^static Header *morecore(unsigned nu)$/;"	f	file:
+morecore	temp.c	/^static Header *morecore (unsigned nu)$/;"	f	language:C	file:	signature:(unsigned nu)
+mycalloc	ex8-6.c	/^void *mycalloc(int n, unsigned size)$/;"	f	language:C	signature:(int n, unsigned size)
+ptr	syscalls2.h	/^    union header *ptr;      \/* next block on the free list *\/$/;"	m	language:C++	struct:header::__anon1	typeref:union:header::__anon1::header
+ptr	temp.c	/^    union header  *ptr;$/;"	m	language:C	struct:header::__anon2	typeref:union:header::__anon2::header	file:
+s	syscalls2.h	/^  } s;$/;"	m	language:C++	union:header	typeref:struct:header::__anon1
+s	temp.c	/^  } s;$/;"	m	language:C	union:header	typeref:struct:header::__anon2	file:
+size	syscalls2.h	/^    unsigned size;$/;"	m	language:C++	struct:header::__anon1
+size	temp.c	/^    unsigned  size;$/;"	m	language:C	struct:header::__anon2	file:
+x	syscalls2.h	/^  Align x;$/;"	m	language:C++	union:header
+x	temp.c	/^  Align x;$/;"	m	language:C	union:header	file:

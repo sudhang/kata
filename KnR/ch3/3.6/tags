@@ -1,0 +1,59 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BASE	ex3-5.c	10;"	d	language:C	file:
+MAXLINE	ex3-5.c	8;"	d	language:C	file:
+MAXLINE	ex3-6.c	8;"	d	language:C	file:
+MAXLINE	itoa.c	5;"	d	language:C	file:
+NUM	ex3-5.c	9;"	d	language:C	file:
+NUM	ex3-6.c	9;"	d	language:C	file:
+NUM	itoa.c	6;"	d	language:C	file:
+WIDTH	ex3-6.c	10;"	d	language:C	file:
+buffer	krx304.c	/^  char buffer[20];$/;"	l	language:C
+c	ex3-5.c	/^  int c, i, j;$/;"	l	language:C
+c	ex3-6.c	/^  int c, i, j;$/;"	l	language:C
+c	itoa.c	/^  int c, i, j;$/;"	l	language:C
+c	krx304.c	/^  int c, i, j;$/;"	l	language:C
+i	ex3-5.c	/^  int c, i, j;$/;"	l	language:C
+i	ex3-5.c	/^  int i, sign;$/;"	l	language:C
+i	ex3-6.c	/^  int c, i, j;$/;"	l	language:C
+i	ex3-6.c	/^  int i, sign, len;$/;"	l	language:C
+i	itoa.c	/^  int c, i, j;$/;"	l	language:C
+i	itoa.c	/^  int i, sign;$/;"	l	language:C
+i	krx304.c	/^  int c, i, j;$/;"	l	language:C
+i	krx304.c	/^  int i, sign;$/;"	l	language:C
+itoa	ex3-5.c	/^void itoa(int n, char s[], int b) $/;"	f	language:C	signature:(int n, char s[], int b)
+itoa	ex3-6.c	/^void itoa(int n, char s[], int w)$/;"	f	language:C	signature:(int n, char s[], int w)
+itoa	itoa.c	/^void itoa(int n, char s[])$/;"	f	language:C	signature:(int n, char s[])
+itoa	krx304.c	/^void itoa(int n, char s[]) $/;"	f	language:C	signature:(int n, char s[])
+itoa	krx304.c	/^void itoa(int n, char s[]);$/;"	p	language:C	file:	signature:(int n, char s[])
+j	ex3-5.c	/^  int c, i, j;$/;"	l	language:C
+j	ex3-6.c	/^  int c, i, j;$/;"	l	language:C
+j	itoa.c	/^  int c, i, j;$/;"	l	language:C
+j	krx304.c	/^  int c, i, j;$/;"	l	language:C
+len	ex3-5.c	/^  int len, num;$/;"	l	language:C
+len	ex3-6.c	/^  int i, sign, len;$/;"	l	language:C
+len	ex3-6.c	/^  int len, num;$/;"	l	language:C
+len	itoa.c	/^  int len, num;$/;"	l	language:C
+line	ex3-5.c	/^  char line[MAXLINE];$/;"	l	language:C
+line	ex3-6.c	/^  char line[MAXLINE];$/;"	l	language:C
+line	itoa.c	/^  char line[MAXLINE];$/;"	l	language:C
+main	ex3-5.c	/^main ()$/;"	f	language:C
+main	ex3-6.c	/^main ()$/;"	f	language:C
+main	itoa.c	/^main ()$/;"	f	language:C
+main	krx304.c	/^int main(void) $/;"	f	language:C	signature:(void)
+num	ex3-5.c	/^  int len, num;$/;"	l	language:C
+num	ex3-6.c	/^  int len, num;$/;"	l	language:C
+num	itoa.c	/^  int len, num;$/;"	l	language:C
+reverse	ex3-5.c	/^void reverse(char s[]) $/;"	f	language:C	signature:(char s[])
+reverse	ex3-6.c	/^void reverse(char s[])$/;"	f	language:C	signature:(char s[])
+reverse	itoa.c	/^void reverse(char s[])$/;"	f	language:C	signature:(char s[])
+reverse	krx304.c	/^void reverse(char s[]) $/;"	f	language:C	signature:(char s[])
+reverse	krx304.c	/^void reverse(char s[]);$/;"	p	language:C	file:	signature:(char s[])
+sign	ex3-5.c	/^  int i, sign;$/;"	l	language:C
+sign	ex3-6.c	/^  int i, sign, len;$/;"	l	language:C
+sign	itoa.c	/^  int i, sign;$/;"	l	language:C
+sign	krx304.c	/^  int i, sign;$/;"	l	language:C

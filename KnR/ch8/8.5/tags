@@ -1,0 +1,71 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Align	syscalls2.h	/^typedef long Align;         \/* for alignment to a long boundary *\/$/;"	t
+BUFSIZE	syscalls.h	7;"	d
+BUFSIZE	syscalls2.h	6;"	d
+DIR	dirent.h	/^} DIR;$/;"	t	typeref:struct:__anon3
+Dirent	dirent.h	/^} Dirent;$/;"	t	typeref:struct:__anon2
+EOF	syscalls.h	6;"	d
+FILE	syscalls.h	/^} FILE;$/;"	t	typeref:struct:_iobuf
+Header	syscalls2.h	/^typedef union header Header;$/;"	t	typeref:union:header
+MAX_PATH	fsize.c	39;"	d	file:
+Malloc	malloc.c	/^void *Malloc(unsigned nbytes)$/;"	f
+NALLOC	malloc.c	40;"	d	file:
+NAME_MAX	dirent.h	1;"	d
+NULL	syscalls.h	5;"	d
+OPEN_MAX	syscalls.h	8;"	d
+OPEN_MAX	syscalls2.h	7;"	d
+PERMS	ex8-2.c	4;"	d	file:
+PERMS	fopen.c	4;"	d	file:
+_EOF	syscalls.h	/^  _EOF   = 010,     \/* EOF has occurred on this file *\/$/;"	e	enum:_flags
+_ERR	syscalls.h	/^  _ERR   = 020      \/* erro occurred on this file *\/$/;"	e	enum:_flags
+_READ	syscalls.h	/^  _READ  = 01,      \/* file open for reading *\/$/;"	e	enum:_flags
+_UNBUF	syscalls.h	/^  _UNBUF = 04,      \/* file is unbuffered *\/$/;"	e	enum:_flags
+_WRITE	syscalls.h	/^  _WRITE = 02,      \/* file open for writing *\/$/;"	e	enum:_flags
+_fillbuf	ex8-2.c	/^int _fillbuf(FILE *fp)$/;"	f
+_fillbuf	fopen.c	/^int _fillbuf(FILE *fp)$/;"	f
+_flags	syscalls.h	/^enum _flags {$/;"	g
+_flushbuf	ex8-2.c	/^int _flushbuf(FILE *fp)$/;"	f
+_flushbuf	fopen.c	/^int _flushbuf(FILE *fp)$/;"	f
+_iobuf	syscalls.h	/^typedef struct _iobuf  {$/;"	s
+base	malloc.c	/^static Header base;       \/* empty list to get started *\/$/;"	v	file:
+base	syscalls.h	/^  char *base;   \/* location of the buffer *\/$/;"	m	struct:_iobuf
+closedir	fsize.c	/^void closedir(DIR *dp)$/;"	f
+cnt	syscalls.h	/^  int cnt;      \/* characters left *\/$/;"	m	struct:_iobuf
+d	dirent.h	/^  Dirent d;                   \/* the directory entry *\/$/;"	m	struct:__anon3
+dirwalk	fsize.c	/^void dirwalk(char *dir, void (*fcn)(char *))$/;"	f
+error	syscalls.h	/^void error(char *fmt, ...)$/;"	f
+error	syscalls2.h	/^void error(char *fmt, ...)$/;"	f
+fclose	ex8-2.c	/^int fclose(FILE *stream)$/;"	f
+fclose	fopen.c	/^int fclose(FILE *stream)$/;"	f
+fd	dirent.h	/^  int fd;                     \/* inode number *\/$/;"	m	struct:__anon3
+fd	syscalls.h	/^  int fd;       \/* file descriptor *\/$/;"	m	struct:_iobuf
+fflush	ex8-2.c	/^int fflush(FILE *stream)$/;"	f
+fflush	fopen.c	/^int fflush(FILE *stream)$/;"	f
+flag	syscalls.h	/^  int flag;     \/* mode of file access *\/$/;"	m	struct:_iobuf
+fopen	ex8-2.c	/^FILE *fopen(char *name, char *mode)$/;"	f
+fopen	fopen.c	/^FILE *fopen(char *name, char *mode)$/;"	f
+free	malloc.c	/^void free(void *ap)$/;"	f
+freep	malloc.c	/^static Header *freep = NULL;  \/* start of free list *\/$/;"	v	file:
+fseek	fopen.c	/^int fseek(FILE *fp, long offset, int origin)$/;"	f
+fsize	fsize.c	/^void fsize(char *name)$/;"	f
+header	syscalls2.h	/^union header  {             \/* block header *\/$/;"	u
+ino	dirent.h	/^  long ino;                   \/* file descriptor for directory *\/$/;"	m	struct:__anon2
+main	fsize.c	/^main(int argc, char **argv)$/;"	f
+main	malloc.c	/^main()$/;"	f
+morecore	malloc.c	/^static Header *morecore(unsigned nu)$/;"	f	file:
+name	dirent.h	/^  char name[NAME_MAX + 1];    \/* name + '\\0' terminator *\/$/;"	m	struct:__anon2
+opendir	fsize.c	/^DIR *opendir(char *dirname)$/;"	f
+ptr	syscalls.h	/^  char *ptr;    \/* next Character position *\/$/;"	m	struct:_iobuf
+ptr	syscalls2.h	/^    union header *ptr;      \/* next block on the free list *\/$/;"	m	struct:header::__anon1	typeref:union:header::__anon1::header
+readdir	fsize.c	/^Dirent *readdir(DIR *dp)$/;"	f
+s	syscalls2.h	/^  } s;$/;"	m	union:header	typeref:struct:header::__anon1
+size	syscalls2.h	/^    unsigned size;$/;"	m	struct:header::__anon1
+stderr	syscalls.h	33;"	d
+stdin	syscalls.h	31;"	d
+stdout	syscalls.h	32;"	d
+x	syscalls2.h	/^  Align x;$/;"	m	union:header

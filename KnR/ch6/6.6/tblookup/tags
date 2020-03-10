@@ -1,0 +1,49 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+BUFSIZE	getunget.c	3;"	d	language:C	file:
+HASHSIZE	tbl.h	5;"	d	language:C++
+MAXLINE	tbl.h	4;"	d	language:C++
+MAXWORD	tbl.h	6;"	d	language:C++
+Strdup	Strdup.c	/^char *Strdup(char *s)$/;"	f	language:C	signature:(char *s)
+Strdup	tbl.h	/^char *Strdup(char *);$/;"	p	language:C++	signature:(char *)
+buf	getunget.c	/^char buf[BUFSIZE]; \/* buffer for ungetch *\/$/;"	v	language:C
+bufp	getunget.c	/^int bufp = 0; \/* next free position in buf *\/$/;"	v	language:C
+c	getword.c	/^  int c;$/;"	l	language:C
+c	main.c	/^  int c, i;$/;"	l	language:C
+defn	tbl.h	/^  char *defn;             \/* replacement *\/$/;"	m	language:C++	struct:nlist	access:public
+getLine	main.c	/^int getLine(char s[], int lim)$/;"	f	language:C	signature:(char s[], int lim)
+getch	getunget.c	/^int getch(void) \/* get a (possibly pushed back) character *\/$/;"	f	language:C	signature:(void)
+getword	getword.c	/^int getword(char *word, int lim)$/;"	f	language:C	signature:(char *word, int lim)
+hash	hash.c	/^unsigned hash(char *s)$/;"	f	language:C	signature:(char *s)
+hash	tbl.h	/^unsigned hash(char *s);$/;"	p	language:C++	signature:(char *s)
+hashtab	tbl.h	/^static struct nlist *hashtab[HASHSIZE];   \/* pointer table *\/$/;"	v	language:C++	typeref:struct:nlist
+hashval	hash.c	/^  unsigned hashval;$/;"	l	language:C
+hashval	lkpinst.c	/^  unsigned hashval;$/;"	l	language:C
+i	main.c	/^  int c, i;$/;"	l	language:C
+install	lkpinst.c	/^struct nlist *install(char *name, char *defn)$/;"	f	language:C	signature:(char *name, char *defn)
+install	tbl.h	/^struct nlist *install(char *name, char *defn);$/;"	p	language:C++	signature:(char *name, char *defn)
+kw	main.c	/^  char *kw, *rep, *line, *word;$/;"	l	language:C
+line	main.c	/^  char *kw, *rep, *line, *word;$/;"	l	language:C
+lookup	lkpinst.c	/^struct nlist *lookup(char *s)$/;"	f	language:C	signature:(char *s)
+lookup	tbl.h	/^struct nlist *lookup(char *s);$/;"	p	language:C++	signature:(char *s)
+main	main.c	/^main()$/;"	f	language:C
+name	tbl.h	/^  char *name;             \/* keyword *\/$/;"	m	language:C++	struct:nlist	access:public
+next	tbl.h	/^  struct nlist *next;     $/;"	m	language:C++	struct:nlist	typeref:struct:nlist::nlist	access:public
+nlist	tbl.h	/^struct nlist  {           \/* table entry *\/$/;"	s	language:C++
+nlist::defn	tbl.h	/^  char *defn;             \/* replacement *\/$/;"	m	language:C++	struct:nlist	access:public
+nlist::name	tbl.h	/^  char *name;             \/* keyword *\/$/;"	m	language:C++	struct:nlist	access:public
+nlist::next	tbl.h	/^  struct nlist *next;     $/;"	m	language:C++	struct:nlist	typeref:struct:nlist::nlist	access:public
+np	lkpinst.c	/^  struct nlist *np, *p;$/;"	l	language:C
+np	lkpinst.c	/^  struct nlist *np;$/;"	l	language:C
+np	main.c	/^  struct nlist *np;$/;"	l	language:C
+p	Strdup.c	/^  char *p;$/;"	l	language:C
+p	lkpinst.c	/^  struct nlist *np, *p;$/;"	l	language:C
+rep	main.c	/^  char *kw, *rep, *line, *word;$/;"	l	language:C
+undef	lkpinst.c	/^void undef(char *name, char *defn)$/;"	f	language:C	signature:(char *name, char *defn)
+ungetch	getunget.c	/^void ungetch(int c) \/* push character back on input *\/$/;"	f	language:C	signature:(int c)
+w	getword.c	/^  char *w = word;$/;"	l	language:C
+word	main.c	/^  char *kw, *rep, *line, *word;$/;"	l	language:C

@@ -1,0 +1,42 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.7	//
+MAX_ELEMENT	ex3-1.c	9;"	d	language:C	file:
+MAX_ELEMENT	krx301_paul.c	18;"	d	language:C	file:
+binsearch	binsearch.c	/^int binsearch (int x, int v[], int n)$/;"	f	language:C	signature:(int x, int v[], int n)
+binsearch	ex3-1.c	/^int binsearch(int x, int v[], int n) {$/;"	f	language:C	signature:(int x, int v[], int n)
+binsearch	krx301_paul.c	/^int binsearch(int x, int v[], int n) {$/;"	f	language:C	signature:(int x, int v[], int n)
+binsearch	krx301_paul.c	/^int binsearch(int x, int v[], int n);     \/*  Original K&R function  *\/$/;"	p	language:C	file:	signature:(int x, int v[], int n)
+binsearch2	ex3-1.c	/^int binsearch2(int x, int v[], int n)$/;"	f	language:C	signature:(int x, int v[], int n)
+binsearch2	krx301_paul.c	/^int binsearch2(int x, int v[], int n) {$/;"	f	language:C	signature:(int x, int v[], int n)
+binsearch2	krx301_paul.c	/^int binsearch2(int x, int v[], int n);    \/*  Our new function       *\/$/;"	p	language:C	file:	signature:(int x, int v[], int n)
+high	binsearch.c	/^  int low, high, mid;$/;"	l	language:C
+high	ex3-1.c	/^  int low, mid, high;$/;"	l	language:C
+high	krx301_paul.c	/^  int low, high, mid;$/;"	l	language:C
+high	krx301_paul.c	/^  int low, mid, high;$/;"	l	language:C
+i	binsearch.c	/^  int i;$/;"	l	language:C
+i	ex3-1.c	/^  int i;$/;"	l	language:C
+i	krx301_paul.c	/^  int i;$/;"	l	language:C
+index	ex3-1.c	/^  int index;                  \/*  Index of found element in test data  *\/$/;"	l	language:C
+index	krx301_paul.c	/^  int index;                  \/*  Index of found element in test data  *\/$/;"	l	language:C
+low	binsearch.c	/^  int low, high, mid;$/;"	l	language:C
+low	ex3-1.c	/^  int low, mid, high;$/;"	l	language:C
+low	krx301_paul.c	/^  int low, high, mid;$/;"	l	language:C
+low	krx301_paul.c	/^  int low, mid, high;$/;"	l	language:C
+main	binsearch.c	/^int main(void)$/;"	f	language:C	signature:(void)
+main	ex3-1.c	/^int main(void) {$/;"	f	language:C	signature:(void)
+main	krx301_paul.c	/^int main(void) {$/;"	f	language:C	signature:(void)
+mid	binsearch.c	/^  int low, high, mid;$/;"	l	language:C
+mid	ex3-1.c	/^  int low, mid, high;$/;"	l	language:C
+mid	krx301_paul.c	/^  int low, high, mid;$/;"	l	language:C
+mid	krx301_paul.c	/^  int low, mid, high;$/;"	l	language:C
+n	ex3-1.c	/^  int n = -1;                 \/*  Element to search for  *\/$/;"	l	language:C
+n	krx301_paul.c	/^  int n = -1;                 \/*  Element to search for  *\/$/;"	l	language:C
+test	binsearch.c	/^  int test[]={1,3,5,7,9,11,13};$/;"	l	language:C
+testdata	ex3-1.c	/^  int testdata[MAX_ELEMENT];$/;"	l	language:C
+testdata	krx301_paul.c	/^  int testdata[MAX_ELEMENT];$/;"	l	language:C
+time_taken	ex3-1.c	/^  clock_t time_taken;$/;"	l	language:C
+time_taken	krx301_paul.c	/^  clock_t time_taken;$/;"	l	language:C
