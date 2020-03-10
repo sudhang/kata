@@ -1,0 +1,54 @@
+* Using inheritence makes the BASE class dependent on the DERIVED class, due to "backwards compatibility" motives.
+
+eg: Suppose we have a "collection" of names.
+	class namesCollection : List
+	{
+	}
+
+Suppose, it is used in three or four places
+
+namesCollection guests = new namesCollection();
+guests.add(); // x 50
+
+
+namesCollection employees;
+employees.add();
+
+Now at some point in time, we decide to use a Stack.  To add to a stack, we must use another method altogether.
+=> Change all of the client code??? NEVER!
+
+Had we not used inheritance, we could have implemented the list aspect as follows:
+
+	class namesCollection
+	{
+	   list L;
+
+	   public void add(int i) { L.add(i) }
+	}
+
+Then, when, we decide to change to a Stack,
+
+	class namesCollection
+	{
+	   list L;
+
+	   public void add(int i) { L.push(i) }
+	}
+
+In a way, inheritance "propagates" mistakes in the API.
+
+
+* Inheritance is a form of "hard coding" functionality at Compile-Time
+
+class Warrior : SwordFighter
+{
+}
+
+class Warrior
+{
+    Weapon w;
+    public void fight() {w.use();}
+}
+
+* Rely on the Liskov Substitution Principle to decide whether or not to Inherit.
+	=> eg: 
