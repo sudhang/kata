@@ -1,0 +1,22 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	
+		<title>Country</title>
+		
+	</head>
+	<body>
+			<input type="text" name="country" id="country">
+		<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+		<script type="text/javascript" charset="utf-8" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8.16/jquery-ui.min.js"></script>
+		<script type="text/javascript">
+			$(function() {
+				$('#country').autocomplete({
+						source: 'countries.php',
+						minLength: 2
+					});
+				});
+		</script>
+	</body>
+</html>	

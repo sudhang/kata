@@ -1,0 +1,41 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8">
+	
+		<title>Stock</title>
+		
+	</head>
+	<body>
+		<form action="#" method="get" id="theForm" accept-charset="utf-8">
+			
+		<p>Enter a symbol in the field below to see the latest price.</p>
+
+		<p>
+			<label for="symbol">Symbol<input type="TEXT" name="symbol" id="symbol"></label>
+			<span id="output"></span>
+		</p>
+		
+		<p><input type="submit" value="Continue &rarr;"></p>
+		</form>
+		<script type="text/javascript" charset="utf-8" src="http://yui.yahooapis.com/3.4.1/build/yui/yui-min.js"></script>
+		<script>
+			YUI().use('node', 'yql', function(Y) {
+				Y.on('domready', function() {
+					var symbol = Y.one('#symbol');
+					var output = Y.one('#output');
+				});
+				Y.one('#theForm').on('submit', function(e) {
+					e.preventDefault();
+					output.innerHTML = '...checking...';
+
+					Y.YQL('SELECT Name, LastTradePriceOnly FROM yahoo.finance.quotes WHERE symbol="' + symbol.value + '"', 
+							function (result) {
+								output.innerHTML = result.query.results.quote.Name + ': $' + result.query.results.quote.LastTradePriceOnly;
+							});
+				});
+			});
+		</script>
+	</body>
+</html>

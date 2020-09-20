@@ -1,0 +1,35 @@
+<html>
+	<head>
+		<title>Employee</title>
+		<script  charset="utf-8" src="employee.js">
+		</script>
+		
+	</head>
+	<body>
+		<form action="#" method="post" accept-charset="utf-8" id="theForm">
+			<fieldset>
+				<legend>Add an Employee</legend>
+				<div>
+					<label for="firstName">First Name</label>
+					<input type="text" name="firstName" value="" id="firstName" required>
+				</div>
+				<div>
+					<label for="lastName">Last Name</label>
+					<input type="text" name="lastName" value="" id="lastName" required>
+				</div>
+				<div>
+					<label for="department">Department</label>
+					<select name="department" id="department">
+						<option value="Accounting">Accounting</option>
+						<option value="Administration">Administration</option>
+						<option value="Human Resources">Human Resources</option>
+						<option value="Marketing">Marketing</option>
+					</select>
+				</div>
+				<input type="submit" value="Submit" id="submit">
+				<input type="button" value="Delete" id="delete">
+			</fieldset>		
+			<div id="output"></div>	
+		</form>
+	</body>
+</html>
